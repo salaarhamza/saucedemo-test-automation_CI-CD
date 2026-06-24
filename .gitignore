@@ -1,0 +1,19 @@
+# Virtual environment
+probe/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Playwright reports
+playwright-report/
+#reports/
+
+# Pytest cache
+.pytest_cache/
+
+# IDE files
+.vscode/
+
+# Screenshots and traces (optional)
+test-results/
