@@ -22,7 +22,7 @@ def test_valid_login(page, username):
     login_page.navigate(BASE_URL)
     login_page.login(username, PASSWORD)
     assert login_page.is_inventory_page_loaded()
-    assert "inventory.html" in page.url
+    assert "inventory.hl" in page.url
 
 def test_invalid_login_error_message(page):
     login_page = LoginPage(page)
