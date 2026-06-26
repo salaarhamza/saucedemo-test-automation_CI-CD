@@ -10,6 +10,8 @@ The framework is implemented using Python, Playwright and Pytest following the P
 
 The goal of this project is to verify the core functionalities of the application through automated end-to-end tests.
 
+Github Actions are added.
+
 ---
 
 ## Technologies
